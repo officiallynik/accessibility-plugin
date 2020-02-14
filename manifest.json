@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Accessibility",
+    "version": "0.1",
+    "description": "Accessibility Testing",
+    "background": {
+        "persistent": true,
+        "scripts": ["js/background.js"]
+      },
+    "permissions": [
+         "contextMenus",
+         "activeTab"
+       ]
+}
